@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <title>Лабораторна робота №2</title>
+    <style>
+      table {
+        border-collapse: collapse;
+      }
+      td {
+        border: 1px solid black;
+        text-align: center;
+        padding: 20px;
+      }
+      tr:first-child td {
+        background-color: #268f8f;
+        color: #ef803e;
+      }
+      tr:nth-child(2) td {
+        background-color: #f5f526;
+        color: #902af0;
+      }
+      tr:first-child:hover td,
+      tr:nth-child(2):hover td {
+        background-color: #ef803e;
+        color: #268f8f;
+      }
+      tr:nth-child(2):hover td {
+        background-color: #902af0;
+        color: #f5f526;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td rowspan="2">Завдання 1</td>
+        <td colspan="2">Коренюк</td>
+        <td>Олена</td>
+        <td>Андріївна</td>
+      </tr>
+      <tr>
+        <td rowspan="2">ІК-21</td>
+        <td rowspan="2">№2</td>
+        <td rowspan="3">Варіант 26</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td rowspan="2"></td>
+      </tr>
+      <tr>
+        <td colspan="3"></td>
+      </tr>
+    </table>
+
+    <div class="phone">
+      <div class="screen">12:00</div>
+      <div class="keypad">
+        <div class="key"></div>
+        <div class="key"></div>
+        <div class="key"></div>
+        <div class="key"></div>
+        <div class="key"></div>
+        <div class="key"></div>
+        <div class="key"></div>
+        <div class="key"></div>
+        <div class="key"></div>
+      </div>
+    </div>
+  </body>
+</html>
